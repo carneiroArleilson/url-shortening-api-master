@@ -1,0 +1,23 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-top: 50px;
+}
+header p, header div{
+    display: inline-block;
+    display: flex;
+}
+div#logo img{
+    height: 33px;
+}
+header p{
+    margin-top: 0px;
+}
+
+div.margem{
+    margin: 0px 100px 0px 100px;
+}
