@@ -1,8 +1,10 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 header{
     margin-top: 50px;
@@ -22,25 +24,79 @@ header p{
     color: #96959D;
     font-weight: bold;
 }
+.m1{
+    margin-top: 6px;
+}
 #l{
     margin-right: 0px;
+    margin-top: 6px;
 }
 #login{
-    align-items: flex-end;
+    display: flex;
+}
+button:hover{
+    background-color: #59D6CD ;
 }
 button{
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
     margin-left: 45px;
+    margin-bottom: 10px;
     color: black;
     font-weight: bold;
     font-size: 16px;
-    /* border-radius: 68px 68px 68px 68px; */
-    border-radius: 40%;
+    border-radius: 50px;
+    border-width: 0px;
     padding: .25rem 1rem ;
+    background-color:#0AC5D4 ;
 }
 div.margem{
     margin: 0px 100px 0px 100px;
 }
 #sec1{
     background: url("../images/illustration-working.svg") no-repeat;
+    display: flex;
+    background-size: 550px;
+    background-position: 120% 50%;
+    padding-bottom: 100px;
+}
+
+h1{
+    margin-right: 300px;
+    font-size: 60px;
+    font-weight: 700;
+}
+p{
+    margin-right: 400px;
+    color: #615E66;
+    font-weight: bold   ;
+}
+#sec1 button{
+margin-left: 0px;
+}
+#sec2{
+    background: #F0F1F6;
+}
+#pesquisa{
+    background: url("../images/bg-shorten-desktop.svg") no-repeat;
+    background-size: 100%;
+    background-color: #3A3053;
+    width: 775px;
+    height: 118px;
+    display: flex;
+    border-radius: 10px;
+}
+input,#sec2 button{
+    border-radius: 5px;
+    margin: 40px 0px 40px 0px;
+    border: 0px;
+}
+input{
+    margin-left: 40px;
+}
+#sec2 button{
+    margin-right: 40px;
+}
+.infor{
+    background: white;
 }
