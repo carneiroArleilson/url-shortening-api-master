@@ -1,0 +1,12 @@
+{
+  "name": "url-shortening-api-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carneiroArleilson/url-shortening-api-master.git",
+  "author": "carneiroArleilson <carneiroarleilson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "require": "^2.4.20"
+  }
+}
