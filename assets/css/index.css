@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { background-color: #232027; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
@@ -88,7 +88,7 @@ h2{
 }
 #pesquisa{
     position: absolute;
-    top: 550pX;
+    top: 580pX;
     background: url("../images/bg-shorten-desktop.svg") no-repeat;
     background-size: 100%;
     background-color: #3A3053;
@@ -105,10 +105,9 @@ input,#sec2 button{
 input{
     margin-right: 40px;
     margin-left: 40px;
-    padding-right: 600px
+    width: 100%;
 }
 #sec2 button{
-    mar
     margin-right: 40px;
 }
 .conteiner{
@@ -117,8 +116,12 @@ input{
     justify-content: space-between;
 }
 #sec2 p{
-    width: 50%;
+    width: 85%;
     margin:auto;
+    margin-bottom: 60px;
+}
+#sec2 h3{
+    margin-top: 0px;
 }
 .inter{
     background-color: #383153;
@@ -147,13 +150,40 @@ input{
     top: 100px;
 }
 #sec3{
+    color: white;
+    display: flex;
     background: url(../images/bg-boost-desktop.svg) no-repeat;
     background-color: #3A3053;
-    background-size: cover;
+    background-size: 100%;
+    justify-content: center;
 }
 #sec3 h2{
-
     padding: 0px;
-    margin-bottom: 250px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+#sec3 button{
+    margin-bottom: 50px;
+    color: white;
+}
+footer{
+    background-color: #232027;
+}
+#paif{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    fill: white;
+    margin-top: 20px;
+    color: #F8F6F9;
+    margin-right: 10px;
+}
+.rodape{
+    color: white;
+}
+.rodape p{
+    font-size: 14px;
+    width: 100%;
+    color: #A7A4AB;
 }
