@@ -187,3 +187,34 @@ footer img{
     width: 100%;
     color: #A7A4AB;
 }
+
+@media (min-width: 768px )and (max-width: 1024px) {
+    div#login > button{
+        margin-left: 0;
+    }
+    .margem {
+        margin: 0 25px !important;
+    }
+    header p{
+        margin-right: 20px;
+    }
+    div#logo img {
+        margin-right: 25px;
+    }
+    h1 {
+        margin-right: 380px;
+        font-size: 45px;
+    }
+    #sec1 {
+        background-size: 450px;
+    }
+    #pesquisa {
+        top: 555pX;
+    }
+    #sec2 button {
+    width: 170px;
+    }
+}
+@media (max-width: 767px){
+
+}
