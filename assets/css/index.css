@@ -210,11 +210,117 @@ footer img{
     }
     #pesquisa {
         top: 555pX;
+        width: 93%;
     }
     #sec2 button {
     width: 170px;
     }
 }
 @media (max-width: 767px){
-
+    header {
+        margin-top: 25px;
+    }
+    div.margem {
+        margin: 0px 20px;
+    }
+    div#logo img {
+        height: 15px;
+        margin-right: 5px;
+    }
+    header p {
+        margin-right: 6px;
+        font-size: 10px;
+    }
+    button {
+        margin-bottom: 10px;
+        font-size: 10px;
+        margin-left: 6px;
+        width: 140px;
+    }
+    h1 {
+        margin-bottom: 0px;
+        margin-top: 50px;
+        margin-right: 200px;
+        font-size: 20px;
+    }
+    p {
+        width: 50%;
+        font-size: 10px;
+    }
+    #sec1 {
+        background-size: 250px;
+        background-position: 120% 50%;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+    }
+    #pesquisa {
+        top: 305pX;
+        height: 55px;
+    }
+    input, #sec2 button {
+        border-radius: 5px;
+        margin: 15px 20px;
+        border: 0px;
+    }
+    #sec2 button{
+        margin-left: 0px;
+    }
+    input{
+        font-size: 10px;
+    }
+    h2 {
+        padding-top: 50px;
+    }
+    .infor img{
+        width: 20px;
+    }
+    .inter {
+        padding: 5px;
+        top: -20px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .infor p {
+        font-size: 5px;
+    }
+    .infor{
+        margin-right: 20px;
+    }
+    .conteiner {
+        margin-top: 40px;
+    }
+    #sec2 {
+        padding-bottom: 150px;
+    }
+    #sec2 p {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    #sec3 {
+        height: 55px;
+    }
+    #sec3 h2 {
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #sec3 button {
+        margin-bottom: 0px;
+    }
+    footer img {
+        width: 15px;
+    }
+    .rodape h4{
+        font-size: 10px;
+    }
+    .rodape p{
+        font-size: 7px;
+    }
+    #logo2 img{
+        width: 60px;
+    }
 }
